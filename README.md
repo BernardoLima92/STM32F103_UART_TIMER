@@ -37,5 +37,8 @@ O software usado como Terminal Serial foi o TERMITE. É um software gratuito fac
 
 O Código completo está localizado em Src>Main.c
 
+7. REsultado obtido no Terminal Serial
+![WhatsApp Image 2022-09-28 at 15 32 26](https://user-images.githubusercontent.com/114233216/192905146-e4b0d435-630d-4a74-964d-00c4729ece07.jpeg)
+
 
 
