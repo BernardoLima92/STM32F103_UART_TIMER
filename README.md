@@ -40,5 +40,15 @@ O Código completo está localizado em Src>Main.c
 7. REsultado obtido no Terminal Serial
 ![WhatsApp Image 2022-09-28 at 15 32 26](https://user-images.githubusercontent.com/114233216/192905146-e4b0d435-630d-4a74-964d-00c4729ece07.jpeg)
 
+8. Novo Teste
+Fiz um novo código apenas com parte que transmite a informação. O Código foi pensado assim:
+  Acende Led
+  Transmite via UART 6 bytes usando a função HAL_UART_Transmit(&huart1, "4096\r\n", 6, 200);
+  Apaga Led
+A ideia foi colocar o a ponreita do Osciloscópio no terminal positivo do LED para ver quanto tempo ele fica aceso.
+Esse é o tempo aproximado de uma transmissão.
+![Osci_PNG](https://user-images.githubusercontent.com/114233216/192912991-21e0af64-a10a-45c0-a8c1-c47224eb0d9e.png)
+
+Como pode ser visto, o tempo aproximado é de 550uS, igual ao que foi calculado usando os timers.
 
 
