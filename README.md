@@ -42,10 +42,14 @@ O Código completo está localizado em Src>Main.c
 
 8. Novo Teste
 Fiz um novo código apenas com parte que transmite a informação. O Código foi pensado assim:
-  Acende Led
+
+  Acende Led;
+  
   Transmite via UART 6 bytes usando a função HAL_UART_Transmit(&huart1, "4096\r\n", 6, 200);
+  
   Apaga Led
-A ideia foi colocar o a ponreita do Osciloscópio no terminal positivo do LED para ver quanto tempo ele fica aceso.
+  
+A ideia foi colocar o a ponteira do Osciloscópio no terminal positivo do LED para ver quanto tempo ele fica aceso.
 Esse é o tempo aproximado de uma transmissão.
 ![Osci_PNG](https://user-images.githubusercontent.com/114233216/192912991-21e0af64-a10a-45c0-a8c1-c47224eb0d9e.png)
 
